@@ -21,7 +21,7 @@ const Auth = sequelize.define(
             type: DataTypes.STRING(255),
                 allowNull: false,
                 validate: {
-                    notNull: { msg: "password is required" },
+                    notNull: { msg: "Contraseña es obligatoria" },
                 },
             },
         },
